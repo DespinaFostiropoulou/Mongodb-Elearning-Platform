@@ -1,0 +1,27 @@
+// Exercise 4: Update salary of Vasilis inside a transaction
+
+use company_db;
+
+// Start session
+const session = db.getMongo().startSession();
+session.startTransaction();
+
+try {
+    const employees = session.getDatabase("company_db").Employees;
+
+    // Update salary (+5000)
+    employees.updateOne(
+        { fname: "Vasilis", lname: "Nikolaidis" },
+        { $inc: { salary: 5000 } }
+    );
+
+    // Commit transaction
+    session.commitTransaction();
+    print("Transaction committed successfully!");
+
+} catch (error) {
+    print("Transaction aborted due to error:", error);
+    session.abortTransaction();
+}
+
+session.endSession();
