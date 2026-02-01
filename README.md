@@ -89,3 +89,13 @@ mongosh < mongo-scripts/crud_examples.js
 - Best practices for MongoDB schema design
 
 ---
+## 📎 Appendix
+
+### 📄 Full Research Report
+You can access the complete study here:
+
+👉 [**Click to view the full research report (PDF)**](research_report.pdf)
+
+
+### 📄 Questionnaire
+[**Click here to view the questionnaire (PDF)**](questionnaire.pdf)
