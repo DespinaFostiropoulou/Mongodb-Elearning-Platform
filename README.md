@@ -99,6 +99,15 @@ You can access the complete study here:
 ### 📸 Screenshots
 
 <p align="center">
-  <img src="screenshot4.png" width="45%">
-  <img src="screenshot6.png" width="45%">
+  <img src="Picture1.png" width="45%">
+  <img src="Picture2.png" width="45%">
+  <img src="Picture3.png" width="45%">
+  <img src="Picture4.png" width="45%">
+  <img src="Picture5.png" width="45%">
+  <img src="Picture6.png" width="45%">
+  <img src="Picture7.png" width="45%">
+  <img src="Picture9.png" width="45%">
+  <img src="Picture10.png" width="45%">
+  <img src="Picture11.png" width="45%">
+  <img src="Picture12.png" width="45%">
 </p>
