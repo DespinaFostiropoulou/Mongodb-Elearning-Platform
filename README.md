@@ -1,4 +1,4 @@
-# MongoDB e-Learning Platform  
+# MongoDB e-Learning Course  
 ### Educational Database Design & Teaching Material
 
 This repository contains the implementation and educational material developed for my Master's Thesis:
@@ -21,29 +21,11 @@ The project focuses on teaching MongoDB and NoSQL concepts through an interactiv
 - Support self-learning through exercises and labs
 - Integrate the course into an e-learning environment (Open eClass)
 
----
-
-## 📚 Project Contents
-
-### 📂 thesis/
-Final thesis document and supporting resources
-
-### 📂 mongodb-database/
-- Sample collections
-- JSON datasets
-- CRUD examples
-- Aggregation pipelines
-- Seed/import scripts
-
-### 📂 educational-material/
-- Exercises
-- Labs
-- Practice activities
-- Teaching notes
-- Slides
-
-### 📂 open-eclass-structure/
-Course organization and structure used in Open eClass
+The content is structured to support: 
+- Self‑paced learning
+- Hands‑on experimentation
+- Classroom or e‑learning environments
+- Developers transitioning from SQL to NoSQL 
 
 ---
 
@@ -60,7 +42,16 @@ Course organization and structure used in Open eClass
 
 ## 🚀 Getting Started
 
-### Import sample database
+### **Prerequisites**
+- MongoDB Community Server or MongoDB Atlas
+- Mongo Shell (`mongosh`) or Compass
+- Node.js (optional, for extended examples)
+
+### **Run the example scripts**
+
+From the project root:
 
 ```bash
-mongoimport --db elearning --collection students --file sample-data/students.json
+mongosh < mongo-scripts/create_database.js
+mongosh < mongo-scripts/insert_sample_data.js
+mongosh < mongo-scripts/crud_examples.js
