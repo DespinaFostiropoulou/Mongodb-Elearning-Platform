@@ -98,4 +98,7 @@ You can access the complete study here:
 
 ### 📸 Screenshots
 
-
+<p align="center">
+  <img src="screenshot4.png" width="45%">
+  <img src="screenshot6.png" width="45%">
+</p>
