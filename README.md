@@ -96,5 +96,6 @@ You can access the complete study here:
 
 👉 [**Click to view the full thesis report (PDF)**](thesis.pdf)
 
+### 📸 Screenshots
 
 
